@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "33cce2ae3059cf05",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dba9733a67a81c8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Testing if NextJS can be used for my blog.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "21375c5270923d98",
+    "type": "split",
+    "children": [
+      {
+        "id": "3546abdbf5d7ff3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a76ffbd8cd7943a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b696b9a6703567f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 367.5
+  },
+  "right": {
+    "id": "a373dc048e0fee47",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1de1a80f8196304",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e483722dd1181050",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Testing if NextJS can be used for my blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7dba9733a67a81c8",
+  "lastOpenFiles": [
+    "Notes/Testing if NextJS can be used for my blog.md",
+    "00 - Templates/Markdown Cheatsheet.md",
+    "Notes/Inbox/My Obsidian Setup.md",
+    "Notes/Inbox/Professional Angular Testing.md",
+    "Notes/Inbox/Testing Web Apps with Cypress.md",
+    "Highlights/#201 – Iñigo San-Millán, Ph.D. (Pt. 2) Deep Dive Back Into Zone 2  the Drive With Peter Attia.md",
+    "Notes/Website Goals and Setup.md",
+    "Notes/Untitled.md",
+    "00 - Templates/Highlight Note - Book.md",
+    "00 - Templates/Highlight Note - Workshop.md"
+  ]
+}
