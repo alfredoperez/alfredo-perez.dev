@@ -1,7 +1,10 @@
 {
-  "name": "Alfredo-perez.dev",
-  "version": "1.5.5",
-  "private": true,
+  "name": "alfredo-perez.dev",
+  "private": false,
+  "description": "Alfredo Perez Personal Website",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Alfredo Perez (https://alfredo-perez.dev)",
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
