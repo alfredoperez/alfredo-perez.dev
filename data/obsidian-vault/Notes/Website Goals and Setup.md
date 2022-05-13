@@ -8,6 +8,8 @@ created: 3/04/21
 updated: 3/8/21
 ---
 
+[[My Obsidian Setup]]
+
 Here I track all the goals and tool used for the PKM system (obsidian) and Website(GatsbyJS).
 
 # PKM system using Obsidian 
