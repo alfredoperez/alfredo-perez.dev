@@ -1,12 +1,12 @@
 const siteMetadata = {
-  title: 'Alfredo Perez Digital garden',
+  title: 'Digital Garden',
   author: 'Alfredo Perez',
   headerTitle: 'Alfredo Perez',
   description: 'A website that I use as a digital garden where ideas can flourish',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://alfredo-perez.dev',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog', // TODO: Change it to the repo
+  siteRepo: 'https://github.com/alfredoperez/alfredo-perez.dev', // TODO: Change it to the repo
   email: 'hello@alfredo-perez.dev',
   github: 'https://github.com/alfredoperez',
   twitter: 'https://twitter.com/alfrodo_perez',
