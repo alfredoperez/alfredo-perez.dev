@@ -75,15 +75,15 @@ export const BlogSEO = ({
   authorDetails,
   title,
   summary,
-  date,
-  lastmod,
+  created,
+  updated,
   url,
   images = [],
   canonicalUrl,
 }) => {
   const router = useRouter()
-  const publishedAt = new Date(date).toISOString()
-  const modifiedAt = new Date(lastmod || date).toISOString()
+  const publishedAt = new Date(created).toISOString()
+  const modifiedAt = new Date(updated || created).toISOString()
   let imagesArr =
     images.length === 0
       ? [siteMetadata.socialBanner]
@@ -149,8 +149,8 @@ export const BlogSEO = ({
         canonicalUrl={canonicalUrl}
       />
       <Head>
-        {date && <meta property="article:published_time" content={publishedAt} />}
-        {lastmod && <meta property="article:modified_time" content={modifiedAt} />}
+        {created && <meta property="article:published_time" content={publishedAt} />}
+        {updated && <meta property="article:modified_time" content={modifiedAt} />}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

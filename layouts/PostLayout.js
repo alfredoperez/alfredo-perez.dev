@@ -8,7 +8,7 @@ import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
+const editUrl = (filePath) => `${siteMetadata.siteRepo}/blob/master/data/obsidian-vault/${filePath}`
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
     `${siteMetadata.siteUrl}/blog/${slug}`
@@ -17,7 +17,7 @@ const discussUrl = (slug) =>
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { slug, fileName, date, title, tags } = frontMatter
+  const { slug, fileName, filePath, created, title, tags } = frontMatter
 
   return (
     <SectionContainer>
@@ -35,8 +35,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 <div>
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                    <time dateTime={date}>
-                      {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
+                    <time dateTime={created}>
+                      {new Date(created).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
                     </time>
                   </dd>
                 </div>
@@ -92,7 +92,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   {'Discuss on Twitter'}
                 </Link>
                 {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                <Link href={editUrl(filePath)}>{'View on GitHub'}</Link>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
@@ -115,7 +115,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     {prev && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          Previous Article
+                          Previous Note
                         </h2>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                           <Link href={`/blog/${prev.slug}`}>{prev.title}</Link>

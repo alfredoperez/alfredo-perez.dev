@@ -1,7 +1,10 @@
 {
-  "name": "Alfredo-perez.dev",
-  "version": "1.5.5",
-  "private": true,
+  "name": "alfredo-perez.dev",
+  "private": false,
+  "description": "Alfredo Perez Personal Website",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Alfredo Perez (https://alfredo-perez.dev)",
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
@@ -38,6 +41,7 @@
     "remark-footnotes": "^4.0.1",
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
+    "remark-wiki-link-plus": "^1.0.0",
     "sharp": "^0.28.3",
     "tailwindcss": "^3.0.23",
     "unist-util-visit": "^4.0.0"
@@ -56,6 +60,8 @@
     "husky": "^6.0.0",
     "inquirer": "^8.1.1",
     "lint-staged": "^11.0.0",
+    "mdast-util-from-markdown": "^0.8.4",
+    "mdast-util-wiki-link": "^0.0.2",
     "next-remote-watch": "^1.0.0",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.4",
