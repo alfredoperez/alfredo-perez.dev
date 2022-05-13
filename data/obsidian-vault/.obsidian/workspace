@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Professional Angular Testing.md",
+            "file": "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<ht",
+                "query": "how this works",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Professional Angular Testing.md",
+                "file": "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +105,15 @@
   },
   "active": "27ad16ff08261464",
   "lastOpenFiles": [
-    "Notes/Professional Angular Testing.md",
-    "00 - Templates/Markdown Cheatsheet.md",
-    "Notes/Inbox/NgRx Workshop at ng-conf 2020.md",
-    "Notes/Inbox/WebStorm Setup.md",
-    "Notes/Inbox/Website Resources.md",
-    "Notes/Inbox/Testing an NgRx effect using observer-spy.md",
-    "Notes/Inbox/Setting up Jest in Angular 11.md",
-    "Notes/Inbox/Prefer using Component Store or services with a behavior subject for local state.md",
-    "Notes/Inbox/Use SHARI Principle to define what goes into the store.md",
-    "Notes/Inbox/Where to initialize NgRx Selectors.md"
+    "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
+    "Notes/Inbox/Testing-an-NgRx-effect-using-observer-spy.md",
+    "Notes/Angular-service-to-handle-state-using-BehaviorSubject.md",
+    "Notes/Professional-Angular-Testing.md",
+    "Notes/Modify-Network-Requests.md",
+    "Notes/Migrating-my-Digital-Garden-to-NextJS.md",
+    "Notes/Gatsby-Camp-Fall-2021.md",
+    "Notes/Creating-an-app-with-Tailwind-NextJS-and-more.md",
+    "Notes/Inbox/Where-to-initialize-NgRx-selectors.md",
+    "Notes/Inbox/WebStorm-Setup.md"
   ]
 }

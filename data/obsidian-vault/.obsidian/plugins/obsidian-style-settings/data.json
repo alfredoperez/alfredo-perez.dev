@@ -6,5 +6,11 @@
   "perso@@font-small": 0.82,
   "obsidian-california-coast-theme@@cc-fancy-cursor": true,
   "obsidian-california-coast-theme@@cc-hr": true,
-  "obsidian-california-coast-theme@@accent": "#6162F1"
+  "obsidian-california-coast-theme@@accent": "#6162F1",
+  "obsidian-california-coast-theme@@cc-no-custom-icons": true,
+  "obsidian-california-coast-theme@@cc-no-file-icons": true,
+  "obsidian-california-coast-theme@@cc-no-folder-icons": false,
+  "obsidian-california-coast-theme@@folder-h": 11,
+  "obsidian-california-coast-theme@@folder-s": 124,
+  "obsidian-california-coast-theme@@folder-b": 70
 }

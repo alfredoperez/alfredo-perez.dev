@@ -1,24 +1,12 @@
-- [[2022-05-02]] 12:47 PM — Synced 291 highlights from 44 documents.
-    - 11 highlights from The Longevity Diet
-    - 22 highlights from The Leangains Method
-    - 4 highlights from End of Watch
+- [[2022-05-13]] 2:11 PM — Synced 216 highlights from 32 documents.
     - 2 highlights from The Workshop and the Storefront
     - 3 highlights from The Delightful Storybook Workflow
-    - 3 highlights from The Little Black Book of Workout Motivation
-    - 4 highlights from Joy and Success at Work
-    - 7 highlights from Letters From a Stoic
-    - 2 highlights from How to Understand the Mind
-    - 1 highlights from One Small Step Can Change Your Life
-    - 1 highlights from Orchestrating Experiences
     - 10 highlights from How to Take Smart Notes
     - 3 highlights from Implementing Zettelkasten in Roam: A Practical Guide
     - 15 highlights from A World Without Email
     - 2 highlights from Stories Are Tests
     - 1 highlights from What Do Successful People Mean When They Say “Transcendental Meditation Changed My Life”?
-    - 14 highlights from The ProFAST Diet
     - 1 highlights from Building a Meditation Routine for a More Productive, Creative and Happier Scientific Life
-    - 1 highlights from Elastic Habits
-    - 5 highlights from Pandemic!
     - 8 highlights from DX & Software Maintainability in Frontend Engineering
     - 14 highlights from 6 Steps to Writing Captivating Blog Post Intros Every Time
     - 7 highlights from What Is Developer Experience (DX)?
@@ -43,4 +31,7 @@
     - 23 highlights from Taming Software Sprawl: Improving Your Distributed Architecture With Compass | Team '22 | Atlassian
     - 2 highlights from #201 – Iñigo San-Millán, Ph.D. (Pt. 2): Deep Dive Back Into Zone 2 | the Drive With Peter Attia
     - 1 highlights from What Is DX?
+
+- [[2022-05-13]] 2:24 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Obsidian Pro Tip - External Links 10 Times Faster
 
