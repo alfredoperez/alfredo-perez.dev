@@ -85,9 +85,9 @@ export default function Home({ posts }) {
           <Link
             href="/blog"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="all posts"
+            aria-label="all notes"
           >
-            All Posts &rarr;
+            All Notes &rarr;
           </Link>
         </div>
       )}
