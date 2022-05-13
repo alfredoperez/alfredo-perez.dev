@@ -32,3 +32,6 @@
     - 2 highlights from #201 – Iñigo San-Millán, Ph.D. (Pt. 2): Deep Dive Back Into Zone 2 | the Drive With Peter Attia
     - 1 highlights from What Is DX?
 
+- [[2022-05-13]] 2:24 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Obsidian Pro Tip - External Links 10 Times Faster
+
