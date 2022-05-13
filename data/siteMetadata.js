@@ -16,7 +16,7 @@ const siteMetadata = {
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   analytics: {
-    googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
+    googleAnalyticsId: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
   },
   ///
   notesPath: 'data/obsidian-vault/Notes', //'../nodes_modules/obsidian-pkm/notes/inbox',
