@@ -1,6 +1,5 @@
 ---
 title: Website Resources
-description: null
 tags:
   - 'links'
 type: awesome

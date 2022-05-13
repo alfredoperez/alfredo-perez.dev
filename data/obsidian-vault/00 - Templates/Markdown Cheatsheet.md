@@ -14,7 +14,7 @@ _Strong text__ **Strong text**
 
 __Strong emphasized text___ or ***Strong emphasized text***
 
-[Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+[Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or http://example.com/
 
 
     
