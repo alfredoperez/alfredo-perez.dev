@@ -5,7 +5,7 @@ tags: ["setup", "obsidian"]
 type: note
 status: seed
 created: 1/22/22
-updated:
+updated: 5/12/22
 ---
 
 # Theme

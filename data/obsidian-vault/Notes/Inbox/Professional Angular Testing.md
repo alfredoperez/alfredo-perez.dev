@@ -5,7 +5,7 @@ status: evergreen
 tags: [angular, testing]
 type: workshop
 created: 4/26/22
-updated:
+updated: 5/12/22
 ---
 
 # Professional Angular Testing
