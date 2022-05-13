@@ -102,7 +102,7 @@ settings:
         level: 3
         collapsed: true
     - 
-        id: default-font
+        id: font-interface-theme
         title: UI font
         description: Font used for the user interface
         type: variable-text
@@ -119,7 +119,7 @@ settings:
             - subpixel-antialiased
             - none
     - 
-        id: editor-font
+        id: font-text-theme
         title: Editor font
         description: Font used for the editor and preview
         type: variable-text
@@ -148,7 +148,7 @@ settings:
         type: variable-text
         default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
     - 
-        id: font-monospace
+        id: font-monospace-theme
         title: Monospace font
         description: Used for code blocks, front matter, etc
         type: variable-text
@@ -242,11 +242,6 @@ settings:
         id: cc-fancy-cursor
         title: Accented cursor
         description: The editor cursor takes on your accent color
-        type: class-toggle
-    - 
-        id: cc-soft-blink-cursor
-        title: Soft-blink cursor
-        description: The editor cursor will fade in and out rather than blinking
         type: class-toggle
     - 
         id: cc-editor-heading-hash
@@ -622,13 +617,6 @@ settings:
   /* Accent lightness Dark Mode */
   --color-black-rgb: 0, 0, 0;
   --color-white-rgb: 255, 255, 255;
-  --default-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  --editor-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  --font-monospace: Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace;
-  --font-interface-theme: var(--default-font);
-  --font-text-theme: var(--editor-font);
   --default-font-smoothing: auto;
   --editor-font-smoothing: auto;
   /* Sizes, weights, padding */
@@ -853,6 +841,12 @@ settings:
 }
 
 body {
+  --font-interface-theme: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --font-text-theme: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --font-monospace-theme: Menlo, SFMono-Regular, Consolas, "Roboto Mono",
+    monospace;
   --editor-font-size: var(--font-text-size, 18px);
   --editor-line-height-rem: calc(var(--editor-line-height) * 1rem);
   --editor-line-height-small: calc(
@@ -864,18 +858,19 @@ body {
   --code-color: var(--text-normal);
 }
 
+body.is-mobile {
+  --font-interface: var(--font-interface-theme);
+  --font-text: var(--font-text-theme);
+  --font-monospace: var(--font-monospace-theme) ;
+}
+
+.cc-fancy-cursor .cm-s-obsidian.mod-cm6 .cm-line {
+  caret-color: var(--text-accent);
+}
 .cc-fancy-cursor .cm-s-obsidian.mod-cm6 .CodeMirror-cursor,
 .cc-fancy-cursor .cm-s-obsidian.mod-cm6 .cm-cursor,
 .cc-fancy-cursor .cm-s-obsidian.mod-cm6 .cm-dropCursor {
-  border-left: 1px solid var(--text-accent);
-  border-right: 1px solid var(--text-accent);
-  transform: translateX(-1px);
-  border-radius: 2px;
-  margin-left: 0;
-}
-
-.cc-soft-blink-cursor .mod-cm6.cm-s-obsidian .cm-focused .cm-cursorLayer {
-  animation-timing-function: ease-out;
+  border-color: var(--text-accent);
 }
 
 body.cc-em-strong .markdown-source-view.cm-s-obsidian span.cm-formatting-strong.cm-header,
@@ -936,7 +931,7 @@ body.cc-em-strong .markdown-source-view.cm-s-obsidian span.cm-formatting-em {
 }
 .cc-editor-heading-hash .cm-s-obsidian.mod-cm6:not(.is-live-preview) .HyperMD-header .cm-formatting-header:not(:only-child):after {
   background-color: var(--background-primary);
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   color: var(--text-faint);
   font-weight: var(--normal-weight);
   font-size: 10px;
@@ -988,7 +983,7 @@ body.cc-em-strong .markdown-source-view.cm-s-obsidian span.cm-formatting-em {
   background-color: var(--background-primary);
   bottom: 15%;
   color: var(--text-faint);
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   font-size: 10px;
   font-weight: var(--normal-weight);
   position: absolute;
@@ -1016,46 +1011,6 @@ body.cc-em-strong .markdown-source-view.cm-s-obsidian span.cm-formatting-em {
   letter-spacing: -3px;
 }
 
-@keyframes cm-blink {
-  0% {
-    opacity: 1;
-  }
-  10% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes cm-blink2 {
-  0% {
-    opacity: 1;
-  }
-  10% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 body {
   --svg-xs: 13px;
   --svg-s: 14px;
@@ -2096,7 +2051,7 @@ body,
 input,
 textarea,
 button {
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   font-size: var(--ui-font-size);
   font-weight: var(--normal-weight);
   line-height: var(--line-height);
@@ -2316,7 +2271,7 @@ input[type=checkbox]:focus, input[type=checkbox]:hover {
   background-repeat: no-repeat;
   background-size: 100% 40px, 140% 3px;
   background-attachment: local, scroll;
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   font-size: var(--ui-font-size);
   padding-bottom: 5rem;
 }
@@ -2717,7 +2672,7 @@ input[type=checkbox]:focus, input[type=checkbox]:hover {
 }
 
 .document-search-close-button {
-  font-family: var(--default-font) !important;
+  font-family: var(--font-interface) !important;
   font-size: 20px;
   width: 1.65rem;
 }
@@ -2853,7 +2808,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 
 .markdown-source-view.mod-cm6 .cm-scroller {
-  font-family: var(--editor-font);
+  font-family: var(--font-text);
   font-size: var(--editor-font-size);
   font-weight: var(--editor-font-weight);
   line-height: var(--editor-line-height);
@@ -2862,7 +2817,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   padding: 2.5em 2em;
 }
 .markdown-source-view.mod-cm6 .cm-gutter {
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
 }
 .markdown-source-view.mod-cm6 .cm-line {
   position: relative;
@@ -3177,7 +3132,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   position: static;
 }
 .markdown-source-view.mod-cm5 .cm-s-obsidian .CodeMirror-linenumber {
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   width: 18px !important;
   min-width: 0;
   position: absolute;
@@ -3201,7 +3156,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   top: 1px;
 }
 .markdown-source-view.mod-cm5 .cm-s-obsidian {
-  font-family: var(--editor-font);
+  font-family: var(--font-text);
   font-size: var(--editor-font-size);
   font-weight: var(--editor-font-weight);
   line-height: var(--editor-line-height);
@@ -3368,7 +3323,7 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
   background: transparent;
 }
 .cc-editor-heading-hash .markdown-source-view.mod-cm5 .cm-formatting-header {
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   color: var(--text-faint) !important;
   font-weight: var(--normal-weight) !important;
 }
@@ -3786,7 +3741,7 @@ body {
   --h6-margin-bottom: 0.5;
   --h6-weight: 500;
   --h6-style: italic;
-  --header-editor-font: var(--editor-font);
+  --header-editor-font: var(--font-text);
 }
 
 .cm-s-obsidian .cm-header.cm-header-1 {
@@ -5119,7 +5074,7 @@ img[alt*=sprf] {
 }
 
 body {
-  --preview-font: var(--editor-font);
+  --preview-font: var(--font-text);
   --preview-font-size: var(--editor-font-size);
   --preview-line-height: var(--editor-line-height);
   --preview-line-height-rem: calc(var(--preview-line-height) * 1rem);
@@ -5267,7 +5222,7 @@ body {
 .markdown-rendered td,
 .markdown-preview-view th,
 .markdown-preview-view td {
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   font-size: 0.95em;
   border-color: var(--shade-10-opaque);
   min-width: var(--table-min-cell-width);
@@ -5366,7 +5321,7 @@ body {
 }
 
 .frontmatter-container {
-  font-family: var(--default-font);
+  font-family: var(--font-interface);
   background-color: var(--background-primary);
   font-size: var(--ui-font-size);
   border-radius: var(--radius-m);
@@ -6093,6 +6048,11 @@ body:not(.hider-frameless):not(.is-fullscreen):not(.is-mobile) {
 .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
   height: 100%;
 }
+.workspace-split.mod-left-split.is-collapsed .workspace-tabs, .workspace-split.mod-left-split[style*=transition] .workspace-tabs,
+.workspace-split.mod-right-split.is-collapsed .workspace-tabs,
+.workspace-split.mod-right-split[style*=transition] .workspace-tabs {
+  min-width: 200px;
+}
 
 .is-translucent .workspace-leaf-resize-handle,
 .workspace-leaf-resize-handle {
@@ -6493,6 +6453,24 @@ body .table-view-table > tbody > tr > td {
 
 .hider-scroll .search-result-container.mod-global-search {
   padding-right: 10px;
+}
+
+body .popover.hover-editor .popover-content {
+  width: 100%;
+}
+body .popover.hover-editor:not(.show-navbar) .view-header {
+  padding: 0;
+}
+body .popover.hover-editor .view-header {
+  transition: none;
+}
+body .popover.hover-editor .popover-title:after {
+  content: none;
+}
+body .popover.hover-editor .view-header,
+body .popover.hover-editor .popover-titlebar .popover-title,
+body .popover.hover-editor .popover-title, body .popover.hover-editor.is-active .popover-title {
+  transition: none;
 }
 
 body .kanban-plugin {
@@ -6929,6 +6907,13 @@ body .lt-status-bar-btn.lt-loading svg {
 
 .native-scrollbars .search-result-container.mod-global-search {
   padding-right: 10px;
+}
+
+body .settings-search-input {
+  padding: 0 5px 10px 5px;
+}
+body .settings-search-input .search-input-container {
+  padding: 0;
 }
 
 body.plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf > .workspace-leaf-content > .view-header > .view-header-title-container:before,

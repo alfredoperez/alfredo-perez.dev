@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Website Goals and Setup.md",
+            "file": "Notes/Professional Angular Testing.md",
             "mode": "source",
             "source": false
           }
@@ -50,6 +50,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "1c05d12b42c1df57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6c42562639b3d4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Website Goals and Setup.md",
+                "file": "Notes/Professional Angular Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,20 +101,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 266
   },
   "active": "7dba9733a67a81c8",
   "lastOpenFiles": [
-    "Notes/Website Goals and Setup.md",
+    "Notes/Professional Angular Testing.md",
+    "Testable.md",
+    "Notes/Gatsby Camp Fall 2021.md",
+    "Notes/Creating an app with Tailwind NextJS and more.md",
+    "Notes/Testing Web Apps with Cypress.md",
     "Notes/Testing if NextJS can be used for my blog.md",
-    "00 - Templates/Markdown Cheatsheet.md",
-    "Notes/Inbox/My Obsidian Setup.md",
-    "Notes/Inbox/Professional Angular Testing.md",
-    "Notes/Inbox/Testing Web Apps with Cypress.md",
-    "Highlights/#201 – Iñigo San-Millán, Ph.D. (Pt. 2) Deep Dive Back Into Zone 2  the Drive With Peter Attia.md",
-    "Notes/Untitled.md",
-    "00 - Templates/Highlight Note - Book.md",
-    "00 - Templates/Highlight Note - Workshop.md"
+    "Notes/My Obsidian Setup.md",
+    "Notes/Website Goals and Setup.md",
+    "Notes/Inbox/Gatsby Camp Fall 2021.md",
+    "Notes/Inbox/Creating an app with Tailwind NextJS and more.md"
   ]
 }

@@ -3,5 +3,8 @@
   "things-style@@full-file-names": true,
   "perso@@menus": "menu-v4",
   "perso@@more-options": false,
-  "perso@@font-small": 0.82
+  "perso@@font-small": 0.82,
+  "obsidian-california-coast-theme@@cc-fancy-cursor": true,
+  "obsidian-california-coast-theme@@cc-hr": true,
+  "obsidian-california-coast-theme@@accent": "#6162F1"
 }
