@@ -3,19 +3,17 @@ import Script from 'next/script'
 import siteMetadata from '@/data/siteMetadata'
 
 const GAScript = () => {
+  const id = process.env.GOOGLE_ANALYTICS_ID
   return (
     <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${siteMetadata.analytics.googleAnalyticsId}`}
-      />
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${id}`} />
 
       <Script strategy="lazyOnload" id="ga-script">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${siteMetadata.analytics.googleAnalyticsId}', {
+            gtag('config', '${id}', {
               page_path: window.location.pathname,
             });
         `}

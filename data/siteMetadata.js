@@ -6,7 +6,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://alfredo-perez.dev',
-  siteRepo: 'https://github.com/alfredoperez/alfredo-perez.dev', // TODO: Change it to the repo
+  siteRepo: 'https://github.com/alfredoperez/alfredo-perez.dev',
   email: 'hello@alfredo-perez.dev',
   github: 'https://github.com/alfredoperez',
   twitter: 'https://twitter.com/alfrodo_perez',
