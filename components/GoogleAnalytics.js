@@ -3,7 +3,10 @@ import Script from 'next/script'
 import siteMetadata from '@/data/siteMetadata'
 
 const GAScript = () => {
+  const envId = process.env.GOOGLE_ANALYTICS_ID
   const id = siteMetadata.analytics.googleAnalyticsId
+
+  console.log({ envId, id })
   return (
     <>
       <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${id}`} />
