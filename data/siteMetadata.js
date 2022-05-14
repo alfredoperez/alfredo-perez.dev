@@ -1,3 +1,10 @@
+console.log(
+  `ga: ${process.env.GOOGLE_ANALYTICS_ID}
+  repo:${process.env.NEXT_PUBLIC_GISCUS_REPO},
+  repositoryId: ${process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID},
+  category: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY},
+  categoryId: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID},`
+)
 const siteMetadata = {
   title: 'Digital Garden',
   author: 'Alfredo Perez',
