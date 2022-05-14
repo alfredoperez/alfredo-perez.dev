@@ -1,10 +1,10 @@
-console.log(
-  `ga: ${process.env.GOOGLE_ANALYTICS_ID}
-  repo:${process.env.NEXT_PUBLIC_GISCUS_REPO},
-  repositoryId: ${process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID},
-  category: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY},
-  categoryId: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID},`
-)
+// console.log(
+//   `ga: ${process.env.GOOGLE_ANALYTICS_ID}
+//   repo:${process.env.NEXT_PUBLIC_GISCUS_REPO},
+//   repositoryId: ${process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID},
+//   category: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY},
+//   categoryId: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID},`
+// )
 const siteMetadata = {
   title: 'Digital Garden',
   author: 'Alfredo Perez',
@@ -23,10 +23,10 @@ const siteMetadata = {
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   analytics: {
-    googleAnalyticsId: 'UA-76775958-2',
+    googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
   },
   ///
-  notesPath: 'data/obsidian-vault/Notes', //'../nodes_modules/obsidian-pkm/notes/inbox',
+  notesPath: 'data/obsidian-vault/Notes',
   authorsPath: 'data/authors',
   notesUrl: 'notes',
 
