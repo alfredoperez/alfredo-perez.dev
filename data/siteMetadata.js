@@ -1,3 +1,10 @@
+// console.log(
+//   `ga: ${process.env.GOOGLE_ANALYTICS_ID}
+//   repo:${process.env.NEXT_PUBLIC_GISCUS_REPO},
+//   repositoryId: ${process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID},
+//   category: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY},
+//   categoryId: ${process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID},`
+// )
 const siteMetadata = {
   title: 'Digital Garden',
   author: 'Alfredo Perez',
@@ -6,7 +13,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://alfredo-perez.dev',
-  siteRepo: 'https://github.com/alfredoperez/alfredo-perez.dev', // TODO: Change it to the repo
+  siteRepo: 'https://github.com/alfredoperez/alfredo-perez.dev',
   email: 'hello@alfredo-perez.dev',
   github: 'https://github.com/alfredoperez',
   twitter: 'https://twitter.com/alfrodo_perez',
@@ -16,10 +23,10 @@ const siteMetadata = {
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   analytics: {
-    googleAnalyticsId: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
+    googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
   },
   ///
-  notesPath: 'data/obsidian-vault/Notes', //'../nodes_modules/obsidian-pkm/notes/inbox',
+  notesPath: 'data/obsidian-vault/Notes',
   authorsPath: 'data/authors',
   notesUrl: 'notes',
 
@@ -52,22 +59,6 @@ const siteMetadata = {
       // please provide a link below to your custom theme css file.
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
-    },
-    utterancesConfig: {
-      // Visit the link below, and follow the steps in the 'configuration' section
-      // https://utteranc.es/
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
-      issueTerm: '', // supported options: pathname, url, title
-      label: '', // label (optional): Comment 💬
-      // theme example: github-light, github-dark, preferred-color-scheme
-      // github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light
-      theme: '',
-      // theme when dark mode
-      darkTheme: '',
-    },
-    disqusConfig: {
-      // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-      shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
     },
   },
 }
