@@ -4,7 +4,7 @@ import siteMetadata from '@/data/siteMetadata'
 
 const GAScript = () => {
   const envId = process.env.GOOGLE_ANALYTICS_ID
-  const id = siteMetadata.analytics.googleAnalyticsId
+  const id = siteMetadata.analytics.googleAnalyticsId || 'UA-76775958-2'
 
   console.log({ envId, id })
   return (
