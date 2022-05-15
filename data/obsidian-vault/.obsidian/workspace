@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
+            "file": "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
+                "file": "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +105,15 @@
   },
   "active": "27ad16ff08261464",
   "lastOpenFiles": [
+    "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
+    "Highlights/Articles/6-Steps-to-Writing-Captivating-Blog-Post-Intros-Every-Time.md",
+    "Highlights/Articles/Building-a-Learning-System-to-Stay-Sharp-as-a-Developer-Advocate.md",
+    "Highlights/Articles/Building-a-Meditation-Routine-for-a-More-Productive,-Creative-and-Happier-Scientific-Life.md",
     "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
+    "Notes/Website-Goals-and-Setup.md",
     "Notes/Inbox/Testing-an-NgRx-effect-using-observer-spy.md",
     "Notes/Angular-service-to-handle-state-using-BehaviorSubject.md",
     "Notes/Professional-Angular-Testing.md",
-    "Notes/Modify-Network-Requests.md",
-    "Notes/Migrating-my-Digital-Garden-to-NextJS.md",
-    "Notes/Gatsby-Camp-Fall-2021.md",
-    "Notes/Creating-an-app-with-Tailwind-NextJS-and-more.md",
-    "Notes/Inbox/Where-to-initialize-NgRx-selectors.md",
-    "Notes/Inbox/WebStorm-Setup.md"
+    "Notes/Modify-Network-Requests.md"
   ]
 }

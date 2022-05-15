@@ -1,12 +1,12 @@
 ---
-title: How to Write Faster: 10 Simple Tips to 2x Your Writing Output
+title: How to Write Faster- 10 Simple Tips to 2x Your Writing Output
 source: pocket
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
 status: evergreen
 tags: 
 - content-creation 
 type: articles
-created: 5/13/22
+created: 5/14/22
 updated: 1/26/22
 ---
 

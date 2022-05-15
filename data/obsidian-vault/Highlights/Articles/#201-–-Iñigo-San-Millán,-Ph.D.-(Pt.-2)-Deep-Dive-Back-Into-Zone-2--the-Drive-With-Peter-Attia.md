@@ -1,12 +1,12 @@
 ---
-title: #201 – Iñigo San-Millán, Ph.D. (Pt. 2): Deep Dive Back Into Zone 2 | the Drive With Peter Attia
+title: #201 – Iñigo San-Millán, Ph.D. (Pt. 2)- Deep Dive Back Into Zone 2 | the Drive With Peter Attia
 source: pocket
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
 status: evergreen
 tags: 
 - health 
 type: articles
-created: 5/13/22
+created: 5/14/22
 updated: 4/18/22
 ---
 

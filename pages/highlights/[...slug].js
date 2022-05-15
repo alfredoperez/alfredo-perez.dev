@@ -7,7 +7,7 @@ import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/l
 const DEFAULT_LAYOUT = 'PostLayout'
 
 export async function getStaticPaths() {
-  const posts = getFiles('notes')
+  const posts = getFiles('highlights')
   return {
     paths: posts.map((p) => ({
       params: {
@@ -19,28 +19,23 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const allNotes = await getAllFilesFrontMatter('notes')
-  const postIndex = allNotes.findIndex((post) => formatSlug(post.slug) === params.slug.join('/'))
-  const prev = allNotes[postIndex + 1] || null
-  const next = allNotes[postIndex - 1] || null
-  const post = await getFileBySlug('notes', params.slug.join('/'))
-  const authorList = post.frontMatter.authors || ['default']
-  const authorPromise = authorList.map(async (author) => {
-    const authorResults = await getFileBySlug('authors', [author])
-    return authorResults.frontMatter
-  })
-  const authorDetails = await Promise.all(authorPromise)
+  const allPosts = await getAllFilesFrontMatter('highlights')
+
+  const postIndex = allPosts.findIndex((post) => formatSlug(post.slug) === params.slug.join('/'))
+  const prev = allPosts[postIndex + 1] || null
+  const next = allPosts[postIndex - 1] || null
+  const post = await getFileBySlug('highlights', params.slug.join('/'))
 
   // rss
-  if (allNotes.length > 0) {
-    const rss = generateRss(allNotes)
+  if (allPosts.length > 0) {
+    const rss = generateRss(allPosts)
     fs.writeFileSync('./public/feed.xml', rss)
   }
 
-  return { props: { post, authorDetails, prev, next } }
+  return { props: { post, prev, next } }
 }
 
-export default function Blog({ post, authorDetails, prev, next }) {
+export default function Highlights({ post, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
 
   return (
@@ -51,7 +46,6 @@ export default function Blog({ post, authorDetails, prev, next }) {
           toc={toc}
           mdxSource={mdxSource}
           frontMatter={frontMatter}
-          authorDetails={authorDetails}
           prev={prev}
           next={next}
         />
