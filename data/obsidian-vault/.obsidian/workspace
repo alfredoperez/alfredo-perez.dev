@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
+            "file": "00 - Templates/Markdown Cheatsheet.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
+                "file": "00 - Templates/Markdown Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +105,7 @@
   },
   "active": "27ad16ff08261464",
   "lastOpenFiles": [
+    "00 - Templates/Markdown Cheatsheet.md",
     "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
     "Highlights/Articles/6-Steps-to-Writing-Captivating-Blog-Post-Intros-Every-Time.md",
     "Highlights/Articles/Building-a-Learning-System-to-Stay-Sharp-as-a-Developer-Advocate.md",
@@ -113,7 +114,6 @@
     "Notes/Website-Goals-and-Setup.md",
     "Notes/Inbox/Testing-an-NgRx-effect-using-observer-spy.md",
     "Notes/Angular-service-to-handle-state-using-BehaviorSubject.md",
-    "Notes/Professional-Angular-Testing.md",
-    "Notes/Modify-Network-Requests.md"
+    "Notes/Professional-Angular-Testing.md"
   ]
 }
