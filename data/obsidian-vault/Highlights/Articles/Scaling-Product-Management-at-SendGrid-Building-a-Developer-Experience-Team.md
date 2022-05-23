@@ -1,12 +1,12 @@
 ---
-title: Scaling Product Management at SendGrid: Building a Developer Experience Team
+title: Scaling Product Management at SendGrid- Building a Developer Experience Team
 source: pocket
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
 status: evergreen
 tags: 
 - dx 
 type: articles
-created: 5/13/22
+created: 5/14/22
 updated: 11/30/21
 ---
 

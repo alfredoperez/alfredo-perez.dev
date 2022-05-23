@@ -7,7 +7,7 @@ import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/l
 const DEFAULT_LAYOUT = 'PostLayout'
 
 export async function getStaticPaths() {
-  const posts = getFiles('blog')
+  const posts = getFiles('highlights')
   return {
     paths: posts.map((p) => ({
       params: {
@@ -19,17 +19,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const allPosts = await getAllFilesFrontMatter('blog')
+  const allPosts = await getAllFilesFrontMatter('highlights')
+
   const postIndex = allPosts.findIndex((post) => formatSlug(post.slug) === params.slug.join('/'))
   const prev = allPosts[postIndex + 1] || null
   const next = allPosts[postIndex - 1] || null
-  const post = await getFileBySlug('blog', params.slug.join('/'))
-  const authorList = post.frontMatter.authors || ['default']
-  const authorPromise = authorList.map(async (author) => {
-    const authorResults = await getFileBySlug('authors', [author])
-    return authorResults.frontMatter
-  })
-  const authorDetails = await Promise.all(authorPromise)
+  const post = await getFileBySlug('highlights', params.slug.join('/'))
 
   // rss
   if (allPosts.length > 0) {
@@ -37,10 +32,10 @@ export async function getStaticProps({ params }) {
     fs.writeFileSync('./public/feed.xml', rss)
   }
 
-  return { props: { post, authorDetails, prev, next } }
+  return { props: { post, prev, next } }
 }
 
-export default function Blog({ post, authorDetails, prev, next }) {
+export default function Highlights({ post, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
 
   return (
@@ -51,7 +46,6 @@ export default function Blog({ post, authorDetails, prev, next }) {
           toc={toc}
           mdxSource={mdxSource}
           frontMatter={frontMatter}
-          authorDetails={authorDetails}
           prev={prev}
           next={next}
         />

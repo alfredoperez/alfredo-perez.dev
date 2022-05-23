@@ -1,11 +1,11 @@
 ---
-title: Taming Software Sprawl: Improving Your Distributed Architecture With Compass | Team '22 | Atlassian
+title: Taming Software Sprawl- Improving Your Distributed Architecture With Compass | Team '22 | Atlassian
 source: podcast
 image_url: https://i.ytimg.com/vi/uoFHngeUlQA/hqdefault.jpg
 status: evergreen
 tags: 
 type: podcasts
-created: 5/13/22
+created: 5/14/22
 updated: 4/15/22
 ---
 

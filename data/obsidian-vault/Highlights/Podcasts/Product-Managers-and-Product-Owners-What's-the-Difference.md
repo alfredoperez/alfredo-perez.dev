@@ -1,11 +1,11 @@
 ---
-title: Product Managers and Product Owners: What's the Difference?
+title: Product Managers and Product Owners- What's the Difference?
 source: podcast
 image_url: https://i.ytimg.com/vi/rXSoQQHGYGw/hqdefault.jpg
 status: evergreen
 tags: 
 type: podcasts
-created: 5/13/22
+created: 5/14/22
 updated: 2/1/22
 ---
 

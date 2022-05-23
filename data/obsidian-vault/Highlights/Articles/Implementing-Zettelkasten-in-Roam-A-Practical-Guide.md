@@ -1,11 +1,11 @@
 ---
-title: Implementing Zettelkasten in Roam: A Practical Guide
+title: Implementing Zettelkasten in Roam- A Practical Guide
 source: pocket
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
 status: evergreen
 tags: 
 type: articles
-created: 5/13/22
+created: 5/14/22
 updated: 3/14/21
 ---
 
