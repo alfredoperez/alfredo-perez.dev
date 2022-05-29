@@ -3,11 +3,10 @@ title: NgRx Workshop at ng-conf 2020
 tags:
   - angular
 type: workshop
+status: evergreen
 created: 3/09/21
 updated: 5/13/22
 ---
-
-# Things I Learned
 
 ## When to use it?
 
@@ -525,7 +524,7 @@ openUploadModal$ = this.actions$.pipe(
 - `@ngrx/entity` provides a common set of basic operations
 - `@ngrx/entity` provides a common set of basic state derivations
 
-## How to add @ngrx/entity
+### How to add @ngrx/entity
 
 - Start by creating a `state` that extends the `entityState`
 
@@ -633,7 +632,8 @@ export const {selectAll, selectEntities} = adapter.getSelectors();
 export const selectActiveBookId = (state: State) => state.activeBookId;
 ```
 
-## [Adapter Collection Methods](https://ngrx.io/guide/entity/adapter#adapter-collection-methods)
+## Adapter Collection Methods
+[Adapter Collection Methods](https://ngrx.io/guide/entity/adapter#adapter-collection-methods)
 
 The entity adapter also provides methods for operations against an entity. These methods can change one or many records at a time. Each method returns the newly modified state if changes were made and the same state if no changes were made.
 

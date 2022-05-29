@@ -1,5 +1,5 @@
 ---
-title: Gatsby Camp Fall 2021
+title: My Notes from Gatsby Camp Fall 2021
 tags:
   - GatsbyJS
 type: conference
@@ -11,8 +11,8 @@ updated: 5/13/22
 ![https://res.cloudinary.com/dagkspppt/image/upload/v1631807469/gatsby_rudgbh.png](https://res.cloudinary.com/dagkspppt/image/upload/v1631807469/gatsby_rudgbh.png)
 These are some of my notes related to the Gatsby Camp Fall '21
 
-## [What's new and what is coming](https://www.youtube.com/watch?v=5ob80szzLJM&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=1)
-
+## What's new and what is coming
+[What's new and what is coming](https://www.youtube.com/watch?v=5ob80szzLJM&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=1)
 - Gatsby Cloud is 10x faster
 - Parallel Query Running
   - Parallel Query Running leverages multiple cores to speed up builds, by as much as 30%
@@ -23,8 +23,8 @@ These are some of my notes related to the Gatsby Camp Fall '21
 - Gatsby Beta 4 includes PQR, DSG and SSR 🎉
 - Install using `npm i gatsby@next`
 
-## [To Gatsby 4 and beyond](https://www.youtube.com/watch?v=6Eglvixg4eg&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=2)
-
+## To Gatsby 4 and beyond
+[To Gatsby 4 and beyond](https://www.youtube.com/watch?v=6Eglvixg4eg&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=2)
 ### Before Today:
 
 - In-memory store
@@ -70,7 +70,8 @@ By storing the Gatsby data-layer in LMDB we can also restore the data  in a work
   ![https://res.cloudinary.com/dagkspppt/image/upload/v1631809116/Gatsby%20Camp%20Fall%2021/gatsby-camp-dsg_xk5m03.png](https://res.cloudinary.com/dagkspppt/image/upload/v1631809116/Gatsby%20Camp%20Fall%2021/gatsby-camp-dsg_xk5m03.png)
 -
 
-## [What React 18+ Unlocks for Gatsby](https://www.youtube.com/watch?v=xPM7MhoaZY4&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=3)
+## What React 18+ Unlocks for Gatsby
+[What React 18+ Unlocks for Gatsby](https://www.youtube.com/watch?v=xPM7MhoaZY4&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=3)
 
 ### Improved Core Web Vitals
 
@@ -102,7 +103,9 @@ By storing the Gatsby data-layer in LMDB we can also restore the data  in a work
 Install `react@next` and `react-dom@next`
 
 
-## [Parallel Query Running with Gatsby 4](https://www.youtube.com/watch?v=X3haR60VjZc&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=5)
+## Parallel Query Running with Gatsby 4
+
+[Parallel Query Running with Gatsby 4](https://www.youtube.com/watch?v=X3haR60VjZc&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=5)
 
 In the demo it was shown a comparison of how fast the Parallel Query Running in Gatsby4 and how it is way faster than the old query since it can use all the cores. 14400 seconds vs 800 seconds
 
@@ -147,12 +150,16 @@ module.exports = {
 }
 ```
 
-## [Native React 18 Code-Splitting with Gatsby](https://www.youtube.com/watch?v=lypEGNEIRKE&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=6)
+## Native React 18 Code-Splitting with Gatsby
+
+[Native React 18 Code-Splitting with Gatsby](https://www.youtube.com/watch?v=lypEGNEIRKE&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=6)
 
 Use of `React.Lazy` and [Suspense](https://reactjs.org/docs/concurrent-mode-suspense.html) to improve performance from React 18.
 
 
-## [Scale Your Website With Flexible Content Models](https://www.youtube.com/watch?v=GcJmJzhVGSk&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=7)
+## Scale Your Website With Flexible Content Models
+
+[Scale Your Website With Flexible Content Models](https://www.youtube.com/watch?v=GcJmJzhVGSk&list=PLCU2qJekvcN04rMcKh-MhddrAfG1Zekub&index=7)
 
 ### What do we mean by scalable?
 
