@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00 - Templates/Markdown Cheatsheet.md",
+            "file": "Notes/Inbox/PR Comment Conventions.md",
             "mode": "source",
             "source": false
           }
@@ -25,6 +25,7 @@
       {
         "id": "3546abdbf5d7ff3e",
         "type": "tabs",
+        "dimension": 58.3988563259471,
         "children": [
           {
             "id": "a76ffbd8cd7943a5",
@@ -54,6 +55,7 @@
       {
         "id": "1c05d12b42c1df57",
         "type": "tabs",
+        "dimension": 41.60114367405289,
         "children": [
           {
             "id": "c6c42562639b3d4e",
@@ -62,7 +64,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           }
@@ -86,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Templates/Markdown Cheatsheet.md",
+                "file": "Notes/Inbox/PR Comment Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +107,15 @@
   },
   "active": "27ad16ff08261464",
   "lastOpenFiles": [
+    "Notes/Inbox/PR Comment Conventions.md",
+    "Notes/Migrating-my-Digital-Garden-to-NextJS.md",
+    "Notes/Gatsby-Camp-Fall-2021.md",
     "00 - Templates/Markdown Cheatsheet.md",
     "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
     "Highlights/Articles/6-Steps-to-Writing-Captivating-Blog-Post-Intros-Every-Time.md",
     "Highlights/Articles/Building-a-Learning-System-to-Stay-Sharp-as-a-Developer-Advocate.md",
     "Highlights/Articles/Building-a-Meditation-Routine-for-a-More-Productive,-Creative-and-Happier-Scientific-Life.md",
     "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
-    "Notes/Website-Goals-and-Setup.md",
-    "Notes/Inbox/Testing-an-NgRx-effect-using-observer-spy.md",
-    "Notes/Angular-service-to-handle-state-using-BehaviorSubject.md",
-    "Notes/Professional-Angular-Testing.md"
+    "Notes/Website-Goals-and-Setup.md"
   ]
 }
