@@ -1,4 +1,6 @@
 {
   "legacyEditor": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "readableLineLength": true
 }
