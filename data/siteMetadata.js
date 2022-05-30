@@ -11,7 +11,7 @@ const siteMetadata = {
   headerTitle: 'Alfredo Perez',
   description: 'A website that I use as a digital garden where ideas can flourish',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://alfredo-perez.dev',
   siteRepo: 'https://github.com/alfredoperez/alfredo-perez.dev',
   email: 'hello@alfredo-perez.dev',
