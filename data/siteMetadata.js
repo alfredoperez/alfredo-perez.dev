@@ -30,12 +30,6 @@ const siteMetadata = {
   highlightsPath: 'data/obsidian-vault/Highlights',
   authorsPath: 'data/authors',
   notesUrl: 'notes',
-
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
-  },
   comment: {
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
