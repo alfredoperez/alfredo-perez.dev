@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Inbox/PR Comment Conventions.md",
+            "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
             "mode": "source",
             "source": false
           }
@@ -25,7 +25,7 @@
       {
         "id": "3546abdbf5d7ff3e",
         "type": "tabs",
-        "dimension": 58.3988563259471,
+        "dimension": 81.75182481751825,
         "children": [
           {
             "id": "a76ffbd8cd7943a5",
@@ -55,7 +55,7 @@
       {
         "id": "1c05d12b42c1df57",
         "type": "tabs",
-        "dimension": 41.60114367405289,
+        "dimension": 18.248175182481752,
         "children": [
           {
             "id": "c6c42562639b3d4e",
@@ -88,14 +88,43 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Inbox/PR Comment Conventions.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7198d82e5f568051",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a30d956bafe5063d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dc2728f9c0a7dd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md"
               }
             }
           }
@@ -107,15 +136,15 @@
   },
   "active": "27ad16ff08261464",
   "lastOpenFiles": [
+    "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
+    "Notes/Gatsby-Camp-Fall-2021.md",
+    "Notes/Inbox/WebStorm-Setup.md",
+    "Highlights/Books/A-World-Without-Email.md",
+    "Highlights/Books/How-to-Take-Smart-Notes.md",
+    "Notes/Inbox/Handling-state-in-Angular-with-a-service-that-uses-BehaviorSubject.md",
+    "Notes/Inbox/A-structured-approach-to-processing-diverse-inputs.md",
     "Notes/Inbox/PR Comment Conventions.md",
     "Notes/Migrating-my-Digital-Garden-to-NextJS.md",
-    "Notes/Gatsby-Camp-Fall-2021.md",
-    "00 - Templates/Markdown Cheatsheet.md",
-    "Highlights/Articles/#201-–-Iñigo-San-Millán,-Ph.D.-(Pt.-2)-Deep-Dive-Back-Into-Zone-2--the-Drive-With-Peter-Attia.md",
-    "Highlights/Articles/6-Steps-to-Writing-Captivating-Blog-Post-Intros-Every-Time.md",
-    "Highlights/Articles/Building-a-Learning-System-to-Stay-Sharp-as-a-Developer-Advocate.md",
-    "Highlights/Articles/Building-a-Meditation-Routine-for-a-More-Productive,-Creative-and-Happier-Scientific-Life.md",
-    "Notes/Testing-if-NextJS-can-be-used-for-my-blog.md",
-    "Notes/Website-Goals-and-Setup.md"
+    "00 - Templates/Markdown Cheatsheet.md"
   ]
 }
