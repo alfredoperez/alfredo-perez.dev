@@ -1,4 +1,4 @@
-import { getAllFilesFrontMatter } from '@/lib/mdx'
+import { getAllFilesFrontMatter } from '@/mdx/mdx'
 import siteMetadata from '@/data/siteMetadata'
 import HighlightsLayout from '@/layouts/HighlightsLayout'
 import { PageSEO } from '@/components/SEO'

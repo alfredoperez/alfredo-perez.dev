@@ -3,6 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["libs/ui/*"],
+      "@/mdx/*": ["libs/mdx/*"],
+      "@/utils/*": ["libs/utils/*"],
       "@/data/*": ["data/*"],
       "@/layouts/*": ["layouts/*"],
       "@/lib/*": ["lib/*"],
