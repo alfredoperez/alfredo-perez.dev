@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
+            "file": "Notes/Modify-Network-Requests.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
+                "file": "Notes/Modify-Network-Requests.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
+                "file": "Notes/Modify-Network-Requests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md"
+                "file": "Notes/Modify-Network-Requests.md"
               }
             }
           }
@@ -136,15 +136,15 @@
   },
   "active": "27ad16ff08261464",
   "lastOpenFiles": [
-    "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
+    "Notes/Modify-Network-Requests.md",
+    "Notes/My-Obsidian-Setup.md",
+    "Notes/Professional-Angular-Testing.md",
     "Notes/Gatsby-Camp-Fall-2021.md",
+    "Notes/Inbox/NgRx-Workshop-at-ng-conf-2020.md",
     "Notes/Inbox/WebStorm-Setup.md",
     "Highlights/Books/A-World-Without-Email.md",
     "Highlights/Books/How-to-Take-Smart-Notes.md",
     "Notes/Inbox/Handling-state-in-Angular-with-a-service-that-uses-BehaviorSubject.md",
-    "Notes/Inbox/A-structured-approach-to-processing-diverse-inputs.md",
-    "Notes/Inbox/PR Comment Conventions.md",
-    "Notes/Migrating-my-Digital-Garden-to-NextJS.md",
-    "00 - Templates/Markdown Cheatsheet.md"
+    "Notes/Inbox/A-structured-approach-to-processing-diverse-inputs.md"
   ]
 }

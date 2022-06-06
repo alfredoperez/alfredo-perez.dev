@@ -37,3 +37,8 @@
 
 - [[2022-05-23]] 12:57 PM — Synced 0 highlights from 0 documents.
 
+- [[2022-06-05]] 8:01 PM — Synced 48 highlights from 3 documents.
+    - 3 highlights from Product Managers and Product Owners: What's the Difference?
+    - 22 highlights from Atlassian Team '22 Opening Keynote - Live From Las Vegas
+    - 23 highlights from Taming Software Sprawl: Improving Your Distributed Architecture With Compass | Team '22 | Atlassian
+
