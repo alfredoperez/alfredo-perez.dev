@@ -42,3 +42,7 @@
     - 22 highlights from Atlassian Team '22 Opening Keynote - Live From Las Vegas
     - 23 highlights from Taming Software Sprawl: Improving Your Distributed Architecture With Compass | Team '22 | Atlassian
 
+- [[2022-06-07]] 11:16 AM — Synced 0 highlights from 0 documents.
+
+- [[2022-06-20]] 8:53 AM — Synced 0 highlights from 0 documents.
+

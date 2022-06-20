@@ -4,5 +4,8 @@
   "markdown-prettifier",
   "settings-search",
   "obsidian-advanced-uri",
-  "metadata-extractor"
+  "metadata-extractor",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-tabs",
+  "tag-wrangler"
 ]
