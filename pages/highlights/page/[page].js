@@ -1,6 +1,6 @@
 import { PageSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
+import { getAllFilesFrontMatter } from '@/mdx/mdx'
 import HighlightsLayout from '@/layouts/HighlightsLayout'
 import { POSTS_PER_PAGE } from '../../highlights'
 

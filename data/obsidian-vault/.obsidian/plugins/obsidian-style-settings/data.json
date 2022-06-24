@@ -41,5 +41,8 @@
   "shimmering-focus@@readable-length": 1000,
   "shimmering-focus@@no-alternating-header-italics": true,
   "shimmering-focus@@less-heading-letter-spacing": true,
-  "shimmering-focus@@no-heading-bg": true
+  "shimmering-focus@@no-heading-bg": true,
+  "shimmering-focus@@font-interface-theme": "\"Lato\"",
+  "shimmering-focus@@font-text-theme": "\"Open Sans\"",
+  "shimmering-focus@@font-monospace-theme": "\"Victor Mono\""
 }

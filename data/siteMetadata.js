@@ -11,7 +11,7 @@ const siteMetadata = {
   headerTitle: 'Alfredo Perez',
   description: 'A website that I use as a digital garden where ideas can flourish',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://alfredo-perez.dev',
   siteRepo: 'https://github.com/alfredoperez/alfredo-perez.dev',
   email: 'hello@alfredo-perez.dev',
@@ -30,12 +30,6 @@ const siteMetadata = {
   highlightsPath: 'data/obsidian-vault/Highlights',
   authorsPath: 'data/authors',
   notesUrl: 'notes',
-
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
-  },
   comment: {
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
