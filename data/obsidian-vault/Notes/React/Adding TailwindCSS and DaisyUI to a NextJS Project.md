@@ -17,7 +17,7 @@ This is not a tutorial! Theses are just the steps I followed while working in a 
 ---
 ## Installing TailwindCSS
 
-Follow the guide from <https://shubhamverma.me/blog/setup-tailwind-css-with-turborepo>
+Follow the guide from https://shubhamverma.me/blog/setup-tailwind-css-with-turborepo
 
 - Install Tailwind
 
@@ -156,7 +156,6 @@ export const Button: React.FC = () => {
 };
 ```
 
-Here is a link to the commit:
-<https://github.com/alfredoperez/code-machina/pull/1>
+Here is a link to the (commit)[https://github.com/alfredoperez/code-machina/pull/1]
 
 

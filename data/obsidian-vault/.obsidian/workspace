@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Professional Angular Testing Workshop.md",
+            "file": "Notes/React/Creating a NextJS Project using TurboRepo.md",
             "mode": "source",
             "source": false
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#react",
+                "query": "https://shubhamverma.me/blog/setup-tailwi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "1c05d12b42c1df57",
@@ -88,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Professional Angular Testing Workshop.md",
+                "file": "Notes/React/Creating a NextJS Project using TurboRepo.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Professional Angular Testing Workshop.md",
+                "file": "Notes/React/Creating a NextJS Project using TurboRepo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Professional Angular Testing Workshop.md"
+                "file": "Notes/React/Creating a NextJS Project using TurboRepo.md"
               }
             }
           }
@@ -137,15 +138,15 @@
   },
   "active": "d60839e09facd4ba",
   "lastOpenFiles": [
+    "Notes/React/Creating a NextJS Project using TurboRepo.md",
+    "Notes/Where to initialize NgRx Selectors.md",
+    "Notes/React/Adding TailwindCSS and DaisyUI to a NextJS Project.md",
+    "Notes/NgRX/Testing an NgRx effect using observer-spy.md",
+    "Notes/React/Adding StoryBook to a component library in  TurboRepo with support for TailwindCSS and DaisyUI.md",
     "Notes/Professional Angular Testing Workshop.md",
     "Notes/Untitled.md",
     "Notes/Untitled 1.md",
     "Notes/Angular/Setting up Jest in Angular 14.md",
-    "Notes/React/My journey of creating the CodeMachina project.md",
-    "Notes/React/Adding TailwindCSS and DaisyUI to a NextJS Project.md",
-    "Notes/React/Adding StoryBook to a component library in  TurboRepo with support for TailwindCSS and DaisyUI.md",
-    "Notes/React/Creating an app with Tailwind NextJS and nrwl Nx.md",
-    "Notes/NgRX/Enhancing NgRx Entity with Atomic State.md",
-    "Inbox/A structured approach to processing diverse inputs.md"
+    "Notes/React/My journey of creating the CodeMachina project.md"
   ]
 }

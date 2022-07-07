@@ -143,8 +143,8 @@ Using observer-spy:
       })
 ```
 
-You can find the working test here:
+You can find the working test (here)[https://github.com/alfredoperez/ngrx-observer-spy/blob/master/projects/example-app/src/app/books/effects/book.effects.spec.ts]
 
-<https://github.com/alfredoperez/ngrx-observer-spy/blob/master/projects/example-app/src/app/books/effects/book.effects.spec.ts>
+---
 
 What do you think? Which one do you prefer?

@@ -63,6 +63,5 @@ The following checks where also added:
 
 ## References
 
-- Angular 9 Strict Mode [here](https://indepth.dev/a-look-at-major-features-in-the-angular-ivy-version-9-release/#strict-mode)
-- Angular Type safety [here] (<https://medium.com/lacolaco-blog/guide-for-type-safe-angular-6e9562499d93>)
-- Strict Property Initialization in TypeScript [here](https://mariusschulz.com/articles/strict-property-initialization-in-typescript)
+- [Angular Type safety](https://medium.com/lacolaco-blog/guide-for-type-safe-angular-6e9562499d93)
+- [Strict Property Initialization in TypeScript](https://mariusschulz.com/articles/strict-property-initialization-in-typescript)

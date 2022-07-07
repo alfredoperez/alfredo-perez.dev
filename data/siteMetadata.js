@@ -27,7 +27,7 @@ const siteMetadata = {
   },
   ///
   notesPath: 'data/obsidian-vault/Notes',
-  highlightsPath: 'data/obsidian-vault/Highlights',
+  highlightsPath: 'data/obsidian-vault/01 - Highlights',
   authorsPath: 'data/authors',
   notesUrl: 'notes',
   comment: {

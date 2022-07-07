@@ -50,4 +50,4 @@ npx create-turbo@latest
    - Set the Build Command to `cd ../.. && npx turbo run build --scope=web --include-dependencies --no-deps`
    -
 
-Here is a link to the commit: <https://github.com/alfredoperez/code-machina/commit/784d8b7239092f98cf133a4fa185762d0ba74dbe>
+Here is a link to the [commit](https://github.com/alfredoperez/code-machina/commit/784d8b7239092f98cf133a4fa185762d0ba74dbe)
