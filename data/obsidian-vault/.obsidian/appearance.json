@@ -1,5 +1,10 @@
 {
-  "cssTheme": "Shimmering Focus",
+  "cssTheme": "Minimal",
   "theme": "moonstone",
-  "baseFontSize": 17
+  "baseFontSize": 15,
+  "enabledCssSnippets": [
+    "folder-icons",
+    "heading-levels",
+    "fancy-frontmatter-tags"
+  ]
 }

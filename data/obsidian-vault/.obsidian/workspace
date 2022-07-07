@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "27ad16ff08261464",
+        "id": "d60839e09facd4ba",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Configure Tailwind and DaisyUI in StoryBook when using Nx.md",
+            "file": "Notes/Professional Angular Testing Workshop.md",
             "mode": "source",
             "source": false
           }
@@ -25,7 +25,7 @@
       {
         "id": "3546abdbf5d7ff3e",
         "type": "tabs",
-        "dimension": 55.252606255012026,
+        "dimension": 67.94751640112464,
         "children": [
           {
             "id": "a76ffbd8cd7943a5",
@@ -41,8 +41,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dx",
-                "matchingCase": true,
+                "query": "tag:#react",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -55,7 +55,7 @@
       {
         "id": "1c05d12b42c1df57",
         "type": "tabs",
-        "dimension": 44.747393744987974,
+        "dimension": 32.05248359887535,
         "children": [
           {
             "id": "c6c42562639b3d4e",
@@ -64,7 +64,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           }
@@ -72,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 277
   },
   "right": {
     "id": "a373dc048e0fee47",
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Configure Tailwind and DaisyUI in StoryBook when using Nx.md",
+                "file": "Notes/Professional Angular Testing Workshop.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,8 +105,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Configure Tailwind and DaisyUI in StoryBook when using Nx.md",
-                "linksCollapsed": true,
+                "file": "Notes/Professional Angular Testing Workshop.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Configure Tailwind and DaisyUI in StoryBook when using Nx.md"
+                "file": "Notes/Professional Angular Testing Workshop.md"
               }
             }
           }
@@ -132,19 +132,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266
+    "width": 192.5,
+    "collapsed": true
   },
-  "active": "27ad16ff08261464",
+  "active": "d60839e09facd4ba",
   "lastOpenFiles": [
-    "Configure Tailwind and DaisyUI in StoryBook when using Nx.md",
-    "Highlights/Articles/The-Best-Practices-for-a-Great-Developer-Experience.md",
-    "Awesomes/Website-Resources.md",
-    "00 - Templates/TIL.md",
-    "00 - Templates/Evergreen Note.md",
-    "Highlights/Articles/Stories-Are-Tests.md",
-    "Notes/My-Obsidian-Setup.md",
-    "Notes/Website-Goals-and-Setup.md",
-    "Notes/Professional-Angular-Testing.md",
-    "Notes/Testing-Web-Apps-with-Cypress.md"
+    "Notes/Professional Angular Testing Workshop.md",
+    "Notes/Untitled.md",
+    "Notes/Untitled 1.md",
+    "Notes/Angular/Setting up Jest in Angular 14.md",
+    "Notes/React/My journey of creating the CodeMachina project.md",
+    "Notes/React/Adding TailwindCSS and DaisyUI to a NextJS Project.md",
+    "Notes/React/Adding StoryBook to a component library in  TurboRepo with support for TailwindCSS and DaisyUI.md",
+    "Notes/React/Creating an app with Tailwind NextJS and nrwl Nx.md",
+    "Notes/NgRX/Enhancing NgRx Entity with Atomic State.md",
+    "Inbox/A structured approach to processing diverse inputs.md"
   ]
 }
