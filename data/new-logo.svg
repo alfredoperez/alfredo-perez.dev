@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="80.000000pt" height="80.000000pt" viewBox="0 0 80.000000 80.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+    <linearGradient id="yourcolor">
+        <stop stop-color="#6143A6"/>
+    </linearGradient>
+
+<g transform="translate(0.000000,80.000000) scale(0.100000,-0.100000)"
+fill="url(#yourcolor)" stroke="none">
+
+<path d="M232 623 c-17 -31 -202 -461 -202 -467 0 -4 25 -6 56 -4 l56 3 64
+159 c35 87 65 160 67 162 2 2 32 -68 67 -156 l63 -160 59 0 58 0 -7 196 -6
+196 54 -7 c57 -8 89 -27 89 -55 0 -26 -33 -50 -68 -50 -32 0 -32 0 -32 -51 l0
+-52 60 6 c69 8 113 27 134 60 37 57 27 159 -20 196 -42 33 -89 41 -205 34
+l-108 -6 -3 -105 -3 -104 -46 108 c-45 108 -46 109 -82 112 -26 2 -38 -2 -45
+-15z"/>
+</g>
+</svg>
