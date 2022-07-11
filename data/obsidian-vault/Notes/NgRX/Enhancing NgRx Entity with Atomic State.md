@@ -72,7 +72,7 @@ For example, this diagram shows the different states a Fetch request can be, and
 
 Applying this concept of atomic states into ngrx/entity means we will have a single prop to save the request state used to get the entities.
 
-{click}  In a scenario where you have properties to store loaded, loading, error message, etc gets transformed into the having a single `requestState` prop that holds any state of the request or the error response:
+In a scenario where you have properties to store loaded, loading, error message, etc gets transformed into the having a single `requestState` prop that holds any state of the request or the error response:
 
 ```ts
 // FROM
